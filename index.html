@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azra'ya Özel - Benimle Evlenirmisin? 💕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ffc0e3 0%, #e6b3f0 50%, #d9b3f0 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 50px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(200, 100, 180, 0.3);
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #d946a6;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(217, 70, 166, 0.2);
+        }
+
+        .heart {
+            font-size: 3em;
+            animation: heartbeat 1.5s infinite;
+            margin: 20px 0;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .subtitle {
+            color: #b565d8;
+            font-size: 1.3em;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .message {
+            color: #6b4e71;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin: 30px 0;
+            font-style: italic;
+        }
+
+        .special-words {
+            color: #d946a6;
+            font-weight: bold;
+            font-size: 1.05em;
+        }
+
+        .music-section {
+            background: linear-gradient(135deg, #ffd9f0 0%, #e6ccf0 100%);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 3px solid #d946a6;
+        }
+
+        .music-title {
+            color: #d946a6;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .youtube-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            margin-bottom: 15px;
+        }
+
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .lyrics {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            color: #6b4e71;
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+
+        .lyrics p {
+            margin: 10px 0;
+        }
+
+        .button-section {
+            margin-top: 30px;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #d946a6 0%, #b565d8 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            margin: 10px;
+            box-shadow: 0 10px 25px rgba(217, 70, 166, 0.3);
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(217, 70, 166, 0.4);
+        }
+
+        .button:active {
+            transform: translateY(-1px);
+        }
+
+        .decorative-text {
+            color: #d946a6;
+            font-size: 2em;
+            margin: 20px 0;
+            letter-spacing: 5px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: #b565d8;
+            font-size: 0.9em;
+        }
+
+        .stars {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">💕</div>
+        
+        <h1>Azra'ya Özel</h1>
+        
+        <div class="decorative-text">✨ 💜 ✨</div>
+        
+        <div class="subtitle">Benimle Evlenirmisin?</div>
+        
+        <div class="message">
+            <p>Benim <span class="special-words">bebeğim</span>, benim <span class="special-words">bebişim</span>,</p>
+            <p>Benim <span class="special-words">birtanem</span>, benim <span class="special-words">aşkım</span>...</p>
+            <p style="margin-top: 20px;">Seninle barışmak istiyorum, seninle yaşamak istiyorum, seninle selamak istiyorum!</p>
+        </div>
+
+        <div class="stars">⭐ 💜 ⭐</div>
+
+        <div class="music-section">
+            <div class="music-title">🎵 Hakan Altun - Teklif Ediyorum 🎵</div>
+            
+            <div class="youtube-container">
+                <iframe src="https://www.youtube.com/embed/9X5Z5e5v5q4?autoplay=1" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="lyrics">
+                <p><strong>"Teklif Ediyorum"</strong></p>
+                <p>Teklif ediyorum, varya tam teklif ediyorum</p>
+                <p>Benimle evlenirmisin, daha ne bekliyorsun</p>
+            </div>
+        </div>
+
+        <div class="message" style="margin-top: 30px;">
+            <p>Azra, benim hayatımın en güzel parçası...</p>
+            <p>Seninle her gün yeni bir hikaye yazıyorum!</p>
+            <p style="margin-top: 20px; font-size: 1.2em;">💕 <span class="special-words">Seninle Barışmak Istiyorum</span> 💕</p>
+        </div>
+
+        <div class="stars">⭐ 💜 ⭐</div>
+
+        <div class="button-section">
+            <button class="button" onclick="showMessage()">Evet Diyecek misin? 💕</button>
+        </div>
+
+        <div class="footer">
+            <p>💜 Seninle Sonsuza Dek 💜</p>
+            <p style="margin-top: 10px;">Seni Seviyorum Azra... 🌹</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert('🎉 EVET! Azra, seni çok seviyorum! Benimle evlenirmisin? 💕🌹');
+            document.querySelector('.heart').style.animation = 'heartbeat 0.5s infinite';
+        }
+
+        // Sayfayı açar açmaz mesaj göster
+        window.addEventListener('load', function() {
+            console.log('Azra\'ya Özel Sayfa Yüklendi! 💕');
+        });
+    </script>
+</body>
+</html>
